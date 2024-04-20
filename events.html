@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View everything that is going on in and around Lumos University campus.">
+    <meta name="keywords" content="Events, Calendar, RSVP">
+    <meta name="author" content="Lumos University">
+    <meta name="copyright" content="Lumos University">
+    <meta name="robots" content="all">
+    <link rel="stylesheet" href="style.css">
+    <title>Lumos University - Events</title>
+    <link rel="icon" type="image/x-icon" href="images/lufavicon.jpeg">
+</head>
+<body>
+    <header class="clearfix">
+        <img class="logosm" src="images/logo.jpg" alt="Lumos University Logo">
+        <nav class="topnav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tuition.html">Tuition</a></li>
+                <li><a class="currentpg" href="studentlife.html">Student Life</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <figure class="hrcenter">
+      <img class="acabanner" src="images/eventsbanner.jpg" alt="Lumos Univerty Museum Ceiling">
+    </figure>
+
+
+    <main>
+        <h1>Events at Lumos University</h1>
+            
+        <p class="hrcenter buff">
+            Lumos University hosts an almost endless number of events across the university campus and beyond. With constantly rotating events
+            that help students and visitors create a strong sense of community and well-being. There is never nothing to do here at Lumos University. 
+             Also, if you want to plan or host an event on campus then please reach out to us!
+        </p>
+
+      <hr>
+
+      <h2 class="hrcenter">Lumos University Event Schedule</h2>
+      <br>
+      <p class=" hrcenter"><strong>RSVP:</strong> To reserve a spot for <em>limited</em> events, please email the event planning team!</p>
+      <table id="athsched">
+          <tr>
+            <th>Event</th>
+            <th>Location</th>
+            <th>Date/Time</th>
+          </tr>
+          <tr>
+            <td>Temporary Tattoo Convention <em>(RSVP)</em></td>
+            <td>Art Wing, #103</td>
+            <td>06/11/23 1500 EDT</td>
+          </tr>
+          <tr>
+            <td>Meditation Workshop <em>(RSVP)</em></td>
+            <td>Gymnasium</td>
+            <td>06/18/23 1700 EDT</td>
+          </tr>
+          <tr>
+            <td>International Food Potluck</td>
+            <td>Main Dining Hall</td>
+            <td>07/02/23 1100 EDT</td>
+          </tr>
+          <tr>
+            <td>Drawing on the Lawn <em>(RSVP)</em></td>
+            <td>Statue Garden</td>
+            <td>07/11/23 1300 EDT</td>
+          </tr>
+          <tr>
+            <td>Yoga and Mimosa Breakfast <em>(RSVP)</em></td>
+            <td>Front Campus Lawn</td>
+            <td>07/14/23 0600 EDT</td>
+          </tr>
+          <tr>
+            <td>Trivia on Tap</td>
+            <td>Campus Tavern</td>
+            <td>07/27/23 1700 EDT</td>
+          </tr>
+          <tr>
+            <td>Outdoor Karaoke BBQ</td>
+            <td>Central Campus Garden</td>
+            <td>08/15/23 1600 EDT</td>
+          </tr>
+          <tr>
+            <td>Battle of the Bands</td>
+            <td>Main Music Hall</td>
+            <td>08/25/23 1700</td>
+          </tr>
+          <tr>
+            <td>Team Canoe Racing <em>(RSVP)</em></td>
+            <td>Severus River</td>
+            <td>08/30/23 1000 EDT</td>
+          </tr>
+          <tr>
+            <td>Duelling Basics Workshop <em>(RSVP)</em></td>
+            <td>TBA</td>
+            <td>09/10/23 1500 EDT</td>
+          </tr>
+          <tr>
+            <td>Custom Broom Convention</td>
+            <td>Campus Fair Grounds</td>
+            <td>09/15/23 1000 EDT</td>
+          </tr>
+      </table>
+    </main>
+
+    <aside id="evntplnr">
+      <span class="genbtn">
+        Share your event with Lumos University by reaching out to our event planning team!
+        <button onclick="location.href='images/letter.jpeg'">Contact Event Planning Team</button>
+      </span>
+    </aside>
+
+    <hr>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        <ul>
+          <li><a href="#">Return to Top</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="tuition.html">Tuition</a></li>
+          <li><a href="studentlife.html">Student Life</a></li>
+          <li><a href="athletics.html">Athletics</a></li>
+          <li><a href="clubs.html">Clubs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="privacy.html"> Privacy Policy</a></li>
+        </ul>
+        <p>&copy; Lumos University 2023</p>
+        <p id="timer"></p>
+    </footer>
+    <script>
+        const d = new Date();
+        document.getElementById("timer").innerHTML = d;
+    </script>
+</body>
+</html>
