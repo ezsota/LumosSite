@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome page for Lumos University of magic.">
+    <meta name="keywords" content="Magic, Wizard, School">
+    <meta name="author" content="Lumos University">
+    <meta name="copyright" content="Lumos University">
+    <meta name="robots" content="all">
+    <link rel="stylesheet" href="style.css">
+    <title>Lumos University - Homepage</title>
+    <link rel="icon" type="image/x-icon" href="images/lufavicon.jpeg">
+</head>
+<body>
+    <header class="clearfix">
+        <img class="logosm" src="images/logo.jpg" alt="Lumos University Logo">
+        <nav class="topnav">
+            <ul>
+                <li><a class="currentpg" href="index.html">Home</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tuition.html">Tuition</a></li>
+                <li><a href="studentlife.html">Student Life</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <figure id="hero-image">
+        <div id="hero-text">
+            <h1>Welcome to Lumos University!</h1>
+            <button onclick="location.href='athletics.html'">Athletics</button>
+            <button onclick="location.href='clubs.html'">Organizations</button>
+            <button onclick="location.href='events.html'">Events</button>
+        </div>
+    </figure>
+
+    <main>
+        <p class="buff hrcenter">
+            Lumos University is not just a location. We are a manner of being, a state of consciousness. Knowledge expands here. 
+            Discoveries originate from ideas. And there are countless opportunities.
+
+            We query and look for solutions. We push limits and broaden our thinking. We strive for excellence in everything, 
+            defying expectations.
+            
+            We motivate a group of doers and visionaries. Our gifted kids decide how to follow their own unique pathways to 
+            excellence. Our committed faculty members research the cutting edge of knowledge and disseminate it. Our enthusiastic 
+            team supports students' success. As they change the world, our alumni have an impact. And by working together, with our 
+            partners, we change the world.
+        </p>
+    </main>
+
+    <section class="hrcenter">
+        <h2>Explore More:</h2><br>
+
+        <!-- start of freefind search box html -->
+        <table id="searchcontain">
+            <tr>
+                <td  id="search1">
+                    <form id="search2" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+                        <input type="hidden" name="si" value="7295104">
+                        <input type="hidden" name="pid" value="r">
+                        <input type="hidden" name="n" value="0">
+                        <input type="hidden" name="_charset_" value="">
+                        <input type="hidden" name="bcd" value="&#247;">
+                        <input type="text" name="query" size="15"> 
+                        <input type="submit" value="search">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td id="search3">
+                    <a class="search4" href="https://www.freefind.com"  rel="nofollow">search engine</a>
+                    <a class="search4" href="https://www.freefind.com"  rel="nofollow" > by <span class="search4">freefind</span></a>
+                </td>
+            </tr>
+        </table>
+        <!-- end of freefind search box html -->
+
+        <a href="images/studentphoto.jpg"><img class="hpthumbs hrcenter" src="images/graduates.jpeg" alt="Lumos University Graduates entering hall"></a>
+        <a href="images/vtour.jpg"><img class="hpthumbs hrcenter" src="images/vtour.jpg" alt="Lumos University main campus building"></a>
+        <a href="studentlife.html"><img class="hpthumbs hrcenter" src="images/studentlifetile.jpg" alt="Lumos University students smiling"></a>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Return to Top</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="tuition.html">Tuition</a></li>
+            <li><a href="studentlife.html">Student Life</a></li>
+            <li><a href="athletics.html">Athletics</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html"> Privacy Policy</a></li>
+        </ul>
+        <p>&copy; Lumos University 2023</p>
+        <p id="timer"></p>
+    </footer>
+    <script>
+        const d = new Date();
+        document.getElementById("timer").innerHTML = d;
+    </script>
+</body>
+</html>
