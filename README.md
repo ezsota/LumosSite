@@ -2,7 +2,7 @@
 
 This repository contains a simple static website for a **fictional** university called **Lumos University**.  
 
-The goal of this project was to demonstrate a foundational understanding of HTML and CSS in the context of layout, color, and responsiveness.
+The goal of this project was to demonstrate a foundational understanding of HTML and CSS in the context of layout, color, and basic responsiveness.
 
 ---
 
