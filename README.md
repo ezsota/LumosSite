@@ -45,7 +45,7 @@ This site is split into the following parts:
 
 - This project is intentionally static
 - All content is fictional
-- Rights to all content belongs to the original owners
+- Rights to all content belong to the original owners
 
 ---
 
